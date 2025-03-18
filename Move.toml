@@ -1,0 +1,16 @@
+[package]
+name = "decentraized-KYC"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xad10d1145a855d75df44c86b3e0329d07e7a9ddf37df1e080a1f53f29b377d7c"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
